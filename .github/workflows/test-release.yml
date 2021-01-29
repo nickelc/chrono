@@ -2,7 +2,7 @@ name: Release Test
 
 on:
   push:
-    branches: ['rel*']
+    branches: ['rel*', test]
   pull_request:
     branches: ['rel*']
 
